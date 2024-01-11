@@ -1,0 +1,15 @@
+#Outer_box{
+    backdrop-filter: blur(10px);
+    max-height: fit-content;
+    max-width: fit-content;
+    border: rgb(39, 8, 8) solid 1px;
+    border-radius: 0.5vw;    
+
+}
+button:hover{
+    color: brown;
+}
+body {
+    background-image: url("https://pixabay.com/illustrations/ink-brushes-texture-grunge-8435869/");
+    background-color: rgb(41, 4, 30);
+}
