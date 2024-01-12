@@ -1,14 +1,29 @@
-#Outer_box{
+#Outer_box {
     backdrop-filter: blur(10px);
-    max-height: fit-content;
-    max-width: fit-content;
+    max-height: 35vw;
+    max-width: 35vw;
     border: rgb(39, 8, 8) solid 1px;
-    border-radius: 0.5vw;    
+    border-radius: 0.5vw;
 
 }
-button:hover{
-    color: brown;
+
+button {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: radial-gradient(circle, rgb(241, 237, 237), rgb(91, 24, 90));
+    width: 10vw;
+    height: 10vw;
+    font-size: 5vw;
+    border-radius: 10%;
+    margin: 0.2vw
 }
+
+button:hover {
+    background-image: radial-gradient(circle, red, rgb(240, 240, 234));
+    transform: scale(1.25);
+    text-shadow: 2px 2px rgb(24, 160, 201);
+}
+
 body {
     background-image: url("https://pixabay.com/illustrations/ink-brushes-texture-grunge-8435869/");
     background-color: rgb(41, 4, 30);
